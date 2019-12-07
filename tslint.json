@@ -1,11 +1,10 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint:recommended",
-        "tslint-config-airbnb",
-        "tslint-react"
-    ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+    "extends": ["tslint-config-standard", "tslint-react"],
+    "rules": {
+        "ter-indent": [true, 4, { "SwitchCase": 1 }],
+        "semicolon": true,
+        "trailing-comma": true,
+        "space-before-function-paren": false,
+        "quotemark": false
+    }
 }
